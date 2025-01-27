@@ -104,8 +104,7 @@ p {
 }
 
 .nav-link.current::after {
-  content: " ";
-
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -162,7 +161,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1440px;
